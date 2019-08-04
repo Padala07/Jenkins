@@ -8,7 +8,7 @@ public class HelloApp {
 
     static int DEFAULT_TIMES = 3;
 
-	static int EXIT_STATUS_PARAMETER_NOT_UNDERSTOOD = 2;
+	static int EXIT_STATUS_PARAMS_NOT_UNDERSTOOD = 2;
 	static int EXIT_STATUS_HELLO_FAILED = 4;
 
 	/**
@@ -26,7 +26,7 @@ public class HelloApp {
 			} catch (NumberFormatException e) {
 				System.err.println("I don't understand the parameter you."
 						+ "Pam Was: [" + args[0] + "]");
-				System.exit(EXIT_STATUS_PARAMETERS_NOT_UNDERSTOOD);
+				System.exit(EXIT_STATUS_PARAMS_NOT_UNDERSTOOD);
 			}
 		}
 
