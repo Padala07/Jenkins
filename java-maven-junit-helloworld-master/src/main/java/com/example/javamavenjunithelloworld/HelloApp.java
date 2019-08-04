@@ -26,7 +26,7 @@ public class HelloApp {
 			} catch (NumberFormatException e) {
 				System.err.println("I don't understand the parameter you."
 						+ "Pam Was: [" + args[0] + "]");
-				System.exit(EXIT_STATUS_PARAMS_NOT_UNDERSTOOD);
+				System.exit(EXIT_STATUS_PARAMETERS_NOT_UNDERSTOOD);
 			}
 		}
 
